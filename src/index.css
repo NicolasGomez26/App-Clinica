@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.favButton{
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color:rgb(236, 190, 197) ;
+}
+nav > article{
+  position: relative;
+  margin-left:auto;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  width: 100%;
+  height: 5vh;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-top: 3rem;
+  background-color:rgb(236, 190, 197) ;
+
+}
+
+footer > div > p{
+  background-color:rgb(234, 83, 83);
+  color: white; 
+  font-size: 1.5rem;
+  bottom: 15px;
+  width: 100%;
+  height: 5vh;
+  position: relative;
+}
+
+footer > div > article > img{
+  width: 13%;
+  margin: 1rem;
+}
+footer > div > article{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+  height: 150px;
+  margin: 0 auto;
+}
+
+form > input{
+  height: 30px;
+}
+form > button{
+  height: 30px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+  height: 500px;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+  background-color:rgb(236, 190, 197) ;
+}
+
+.card img{
+  width: 300px;
+  height: 300px;
+}
+
+.card:hover{
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  display: table;
+  border: 1px solid #ccc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:rgb(234, 83, 83);
+}
+
+.dark{
+  background-color: #12121296;
+  color: white;
+}
+.dark > nav{
+  background-color: black;
+  color: white;
+}
+.dark > nav  > a{
+  color: white;
+}
+.dark > nav > article > a{
+  color: white;
+}
+
+.dark > nav > article > img{
+  background-color:rgb(236, 190, 197) ;
+  position: relative;
+  width: 5%;
+  border-radius: 0.6rem;
+  border:solid  1px black;
+  padding: 0.5rem;
+  margin: 0.3rem;
+}
+
+nav > article > img {
+  position: relative;
+  width: 5%;
+  background-color: black ;
+  border-radius: 0.6rem;
+  border:solid  1px black;
+  padding: 0.5rem;
+  margin: 0.3rem;
+}
+.dark > footer{
+  background-color: black;
+}
+.redes{
+  width: 20%;
+}
+.redes > img{
+  width: 10%;
+  height: 3.5vh;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
